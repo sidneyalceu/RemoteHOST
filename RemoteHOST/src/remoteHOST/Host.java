@@ -4,6 +4,7 @@ public class Host {
 	private String Ip;
 	private String NomeDoHost;
 	private String TipodeConexao;
+	
 	public String getIp() {
 		return Ip;
 	}
@@ -22,7 +23,5 @@ public class Host {
 	public void setTipodeConexao(String tipodeConexao) {
 		TipodeConexao = tipodeConexao;
 	}
-	
-	
 
 }

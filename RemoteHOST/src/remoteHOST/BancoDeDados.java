@@ -23,7 +23,5 @@ public class BancoDeDados {
 	public void setNomeDoBanco(String nomeDoBanco) {
 		NomeDoBanco = nomeDoBanco;
 	}
-	
-	
 
 }
