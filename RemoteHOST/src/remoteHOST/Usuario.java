@@ -1,15 +1,15 @@
 package remoteHOST;
 
 public class Usuario {
-	private String IdUsuario;
+	private int IdUsuario;
 	private String Senha;
 	private String Login;
 	private String Nome;
 	
-	public String getIdUsuario() {
+	public int getIdUsuario() {
 		return IdUsuario;
 	}
-	public void setIdUsuario(String idUsuario) {
+	public void setIdUsuario(int idUsuario) {
 		IdUsuario = idUsuario;
 	}
 	public String getSenha() {

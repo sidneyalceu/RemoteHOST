@@ -7,8 +7,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.aprendendoweb.persistencia.entidade.Usuario;
-
 public class UsuarioDAO {
 	private Connection con = ConexaoFactory.getConnection();
 	
@@ -72,7 +70,7 @@ public class UsuarioDAO {
 	 * @param usuario objeto que sera salvo na base de dados.
 	 */
 	public void salvar(Usuario usuario){
-		if(usuario.getIdUsuario() != null && usuario.getIdUsuario()!=0 ){
+		if(usuario.getIdUsuario()!=0 ){
 			aleterar(usuario);
 		}else {
 			cadastrar(usuario);
