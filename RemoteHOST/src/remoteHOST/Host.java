@@ -4,6 +4,7 @@ public class Host {
 	private String Ip;
 	private String NomeDoHost;
 	private String TipodeConexao;
+	private String ApelidioDoHost;
 	
 	public String getIp() {
 		return Ip;
